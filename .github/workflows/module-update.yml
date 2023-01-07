@@ -32,6 +32,7 @@ jobs:
         run: |
           git config --local user.email "s.datsukan@gmail.com"
           git config --local user.name "datsukan"
+          git restore .
           git pull
           git add -A
           git commit -m "go module update"
